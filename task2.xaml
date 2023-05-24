@@ -8,7 +8,11 @@
         mc:Ignorable="d"
         Title="AlbumGrid" Height="450" Width="800">
     <Grid Background="CornflowerBlue">
-        <DataGrid x:Name="albumGrid" AutoGenerateColumns="True" ItemsSource="{DynamicResource ResourceKey=album}">
+        <DataGrid x:Name="albumsGrid" AutoGenerateColumns="True" MouseDoubleClick="Change">
         </DataGrid>
+
+        <Button Width="100" Height="25" Content="Task 3" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,40,20" FontWeight="SemiBold" Background="LightCyan" Click="Task3"/>
+        <Button Width="100" Height="25" Content="Exit" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20" FontWeight="SemiBold" Background="Crimson" Click="Exit"/>
+        <Button Width="100" Height="25" Content="Task 1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="40,0,0,20" FontWeight="SemiBold" Background="LightCyan" Click="Task1"/>
     </Grid>
 </Window>
