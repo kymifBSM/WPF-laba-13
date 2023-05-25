@@ -8,32 +8,34 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\kymifBSM\\.nuget\\packages\\": {},
-    "D:\\Programms\\MS Visual\\Shared\\NuGetPackages": {}
+    "C:\\Users\\user.COMP-02\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kymifBSM\\Source\\Repos\\WPF-laba-13\\WPF-laba13.csproj",
+      "projectUniqueName": "C:\\Users\\user.COMP-02\\Source\\Repos\\WPF-laba-13\\WPF-laba13.csproj",
       "projectName": "WPF-laba13",
-      "projectPath": "C:\\Users\\kymifBSM\\Source\\Repos\\WPF-laba-13\\WPF-laba13.csproj",
-      "packagesPath": "C:\\Users\\kymifBSM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kymifBSM\\Source\\Repos\\WPF-laba-13\\obj\\",
+      "projectPath": "C:\\Users\\user.COMP-02\\Source\\Repos\\WPF-laba-13\\WPF-laba13.csproj",
+      "packagesPath": "C:\\Users\\user.COMP-02\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user.COMP-02\\Source\\Repos\\WPF-laba-13\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Programms\\MS Visual\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\kymifBSM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user.COMP-02\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows"
+        "net5.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -57,8 +59,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -70,7 +71,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }

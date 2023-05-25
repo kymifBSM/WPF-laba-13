@@ -18,7 +18,7 @@
                 <TextBox x:Name="joinDateTextBox" Width="120" Height="25" Margin="5" VerticalAlignment="Bottom"/>
                 <TextBox x:Name="genderTextBox" Width="120" Height="25" Margin="5" VerticalAlignment="Bottom"/>
                 <TextBox x:Name="salaryTextBox" Width="120" Height="25" Margin="5" VerticalAlignment="Bottom"/>
-                <Button x:Name="addButton" Content="Add" Width="100" Height="25" Margin="25,5,5,5" Click="Click" VerticalAlignment="Bottom" FontWeight="SemiBold" Background="SaddleBrown"/>
+                <Button x:Name="addButton" Content="Add" Width="100" Height="25" Margin="25,5,5,5" Click="Click" VerticalAlignment="Bottom" FontWeight="SemiBold" Background="Moccasin"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" Margin="10">
